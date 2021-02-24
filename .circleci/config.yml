@@ -4,9 +4,6 @@ jobs:
    machine: true
    steps:
      - checkout 
-     # Test
-     - run: |         
-         lsb_release -d
 
      # build image
      - run: | 
