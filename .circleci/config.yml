@@ -6,7 +6,7 @@ jobs:
      - checkout 
      # Test
      - run: |         
-         dotnet test XUnitTestClothesstore --logger "console;verbosity=detailed"
+         lsb_release -d
 
      # build image
      - run: | 
