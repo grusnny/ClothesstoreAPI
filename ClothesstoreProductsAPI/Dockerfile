@@ -4,11 +4,11 @@ WORKDIR /app
 
 # Copy csproj and restore as distinct layers
 
-COPY ClothesstoreApi/XUnitTestClothesstore/*.csproj ./XUnitTestClothesstore/
+COPY ./ClothesstoreApi/XUnitTestClothesstore/*.csproj ./XUnitTestClothesstore/
 
-COPY ClothesstoreApi/ClothesstoreProductsAPI/*.csproj ./
+COPY ./ClothesstoreApi/ClothesstoreProductsAPI/*.csproj ./
 
-COPY  ClothesstoreApi/ClothesstoreProductsAPI/*.sln ./
+COPY ./ClothesstoreApi/ClothesstoreProductsAPI/*.sln ./
 
 RUN dotnet restore
 
