@@ -9,8 +9,8 @@ jobs:
          dotnet test XUnitTestClothesstore --logger "console;verbosity=detailed"
 
      # build image
-     - run: |        
-	 cd ./ClothesstoreProductsAPI 
+     - run: | 
+         cd ./ClothesstoreProductsAPI       
          docker info
          docker build -t aspnetapp -f Dockerfile .
 
