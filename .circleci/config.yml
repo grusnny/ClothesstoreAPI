@@ -4,9 +4,6 @@ jobs:
    machine: true
    steps:
      - checkout 
-     # Test
-     - run: |         
-         dotnet test XUnitTestClothesstore --logger "console;verbosity=detailed"
 
      # build image
      - run: |        
