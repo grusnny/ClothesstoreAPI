@@ -3,12 +3,10 @@ WORKDIR /ClothesstoreProductsAPI
 
 # Copy csproj and restore as distinct layers
 COPY *.csproj ./
-RUN ls -l
 
-WORKDIR /XUnitTestClothesstore
+WORKDIR /XUnitTestClothesstore/XUnitTestClothesstore
 
 COPY *.csproj ./
-RUN ls -l
 
 WORKDIR /ClothesstoreProductsAPI
 
