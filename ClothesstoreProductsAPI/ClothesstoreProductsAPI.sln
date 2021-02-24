@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClothesstoreProductsAPI", "ClothesstoreProductsAPI.csproj", "{E039D676-E9EC-4EE4-916F-8AA334DFFBF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestClothesstore", "..\XUnitTestClothesstore\XUnitTestClothesstore.csproj", "{062426C9-194A-4113-A255-766677DC7F7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestClothesstore", "..\XUnitTestClothesstore\XUnitTestClothesstore.csproj", "{062426C9-194A-4113-A255-766677DC7F7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
