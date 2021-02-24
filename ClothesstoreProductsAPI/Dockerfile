@@ -5,9 +5,10 @@ WORKDIR ClothesstoreApi/ClothesstoreProductsAPI
 
 COPY *.csproj ./
 
-COPY *.sln. ./
+COPY *.sln ./
 
-COPY XUnitTestClothesstore/*.csproj ./XUnitTestClothesstore/
+WORKDIR ClothesstoreApi/XUnitTestClothesstore
+COPY *.csproj ./XUnitTestClothesstore/
 
 WORKDIR /ClothesstoreProductsAPI 
 
