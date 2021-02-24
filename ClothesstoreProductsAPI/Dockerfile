@@ -10,7 +10,7 @@ COPY *.sln ./
 WORKDIR ClothesstoreApi/XUnitTestClothesstore
 COPY *.csproj ./XUnitTestClothesstore/
 
-WORKDIR /ClothesstoreProductsAPI 
+WORKDIR ClothesstoreApi/ClothesstoreProductsAPI
 
 RUN dotnet restore
 
@@ -19,6 +19,5 @@ COPY . ./
 RUN dotnet publish -c Release -o out
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
-WORKDIR /ClothesstoreProductsAPI
 COPY --from=build-env /ClothesstoreProductsAPI/out .
 CMD dotnet ClothesstoreProductsAPI.dll --urls "http://*:$PORT"
