@@ -8,6 +8,8 @@ WORKDIR /XUnitTestClothesstore
 
 COPY *.csproj ./
 
+WORKDIR /ClothesstoreProductsAPI
+
 RUN dotnet --info
 RUN dotnet restore
 
