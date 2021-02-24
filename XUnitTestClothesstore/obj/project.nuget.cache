@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b0SDSRGjBP3RgNg+IY/yVBIfw+h68EuD06iTx7tFhZUQEGarhekXvGyhWqOtdYM4ZD9BHEPh11kA7oGVQAVchw==",
+  "dgSpecHash": "+uFMm8sBGVeRoJN0wrpiuRqN+ovg/EMzq3LvktognafnNKcDVdBSt+wMCfdFLUL10qcwFCeGXq5md4Pn0tTfZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andres\\Desktop\\ClothesstoreApi\\XUnitTestClothesstore\\XUnitTestClothesstore.csproj",
+  "projectFilePath": "C:\\Users\\andres\\Documents\\GitHub\\ClothesstoreApi\\XUnitTestClothesstore\\XUnitTestClothesstore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andres\\.nuget\\packages\\alba\\4.0.0\\alba.4.0.0.nupkg.sha512",
     "C:\\Users\\andres\\.nuget\\packages\\baseline\\2.1.0\\baseline.2.1.0.nupkg.sha512",

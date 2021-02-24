@@ -3,6 +3,11 @@ WORKDIR /ClothesstoreProductsAPI
 
 # Copy csproj and restore as distinct layers
 COPY *.csproj ./
+
+WORKDIR /XUnitTestClothesstore
+
+COPY *.csproj ./
+
 RUN dotnet --info
 RUN dotnet restore
 
