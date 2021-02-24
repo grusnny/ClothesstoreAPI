@@ -7,7 +7,8 @@ jobs:
 
      # build image
      - run: | 
-         cd ./ClothesstoreProductsAPI       
+         ls -l 
+         cd ClothesstoreProductsAPI       
          docker info
          docker build -t aspnetapp -f Dockerfile .
 
