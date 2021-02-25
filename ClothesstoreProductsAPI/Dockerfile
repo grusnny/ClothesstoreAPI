@@ -6,8 +6,6 @@ WORKDIR /app
 
 COPY *.csproj ./ClothesstoreApi/XUnitTestClothesstore/
 
-WORKDIR ClothesstoreApi/ClothesstoreProductsAPI
-
 COPY *.csproj ./ClothesstoreApi/ClothesstoreProductsAPI/
 
 COPY *.sln ./ClothesstoreApi/ClothesstoreProductsAPI/
