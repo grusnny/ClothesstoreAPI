@@ -3,7 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	 <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
-    <StartupObject></StartupObject>
+	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	  <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+	  <StartupObject></StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
