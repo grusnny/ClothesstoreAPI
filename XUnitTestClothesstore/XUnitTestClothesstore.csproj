@@ -21,6 +21,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClothesstoreProductsAPI\ClothesstoreProductsAPI.csproj" />
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </ItemGroup>
 
 </Project>
