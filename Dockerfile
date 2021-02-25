@@ -13,7 +13,7 @@ COPY ClothesstoreProductsAPI/*.sln ./ClothesstoreApi/ClothesstoreProductsAPI/
 WORKDIR /app/ClothesstoreApi/XUnitTestClothesstore
 
 WORKDIR /app/ClothesstoreApi/ClothesstoreProductsAPI
-RUN ls-l
+RUN ls
 
 RUN dotnet restore 
 
