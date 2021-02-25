@@ -1,15 +1,18 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build-env
 
-WORKDIR /app
+WORKDIR ClothesstoreApi /XUnitTestClothesstore
 
 # Copy csproj and restore as distinct layers
-RUN ls -l
 
-COPY src /ClothesstoreApi /XUnitTestClothesstore /*.csproj ./XUnitTestClothesstore/
+COPY *.csproj ./ClothesstoreApi /XUnitTestClothesstore
 
-COPY src /ClothesstoreApi /ClothesstoreProductsAPI /*.csproj ./
+WORKDIR ClothesstoreApi /ClothesstoreProductsAPI
 
-COPY src /ClothesstoreApi /ClothesstoreProductsAPI /*.sln ./
+COPY *.csproj ./ClothesstoreApi /ClothesstoreProductsAPI
+
+COPY sln ./ClothesstoreApi /ClothesstoreProductsAPI
+
+RUN ls
 
 RUN dotnet restore
 
