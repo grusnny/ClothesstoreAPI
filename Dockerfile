@@ -13,6 +13,7 @@ COPY ClothesstoreProductsAPI/*.sln ./ClothesstoreApi/ClothesstoreProductsAPI/
 WORKDIR /app/ClothesstoreApi/XUnitTestClothesstore
 
 WORKDIR /app/ClothesstoreApi/ClothesstoreProductsAPI
+RUN ls-l
 
 RUN dotnet restore 
 
@@ -21,7 +22,6 @@ WORKDIR /app
 COPY . ./
 RUN dotnet publish ClothesstoreApi/ClothesstoreProductsAPI/ClothesstoreProductsAPI.csproj -c Release -o /app/ClothesstoreApi/ClothesstoreProductsAPI/out
 WORKDIR /app/ClothesstoreApi/ClothesstoreProductsAPI
-RUN ls-l
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 COPY --from=build-env ./ ../
