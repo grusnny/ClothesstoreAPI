@@ -10,7 +10,7 @@ WORKDIR ClothesstoreApi /ClothesstoreProductsAPI
 
 COPY *.csproj ./ClothesstoreApi/ClothesstoreProductsAPI/
 
-COPY sln ./ClothesstoreApi/ClothesstoreProductsAPI/
+COPY *.sln ./ClothesstoreApi/ClothesstoreProductsAPI/
 
 RUN ls
 
