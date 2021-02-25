@@ -1,5 +1,5 @@
 ﻿using ClothesstoreProductsAPI.Models;
-using XUnitTestClothesstore.Fixture;
+
 using FluentAssertions;
 using System;
 using System.Collections.Generic;
@@ -10,11 +10,11 @@ using Alba;
 
 namespace XUnitTestClothesstore
 {
-    public class TestProductsEndPoints : IClassFixture<ApiClothesstoreFixture>
+    public class TestProductsEndPoints : IClassFixture<Fixture.ApiClothesstoreFixture>
     {
         private readonly SystemUnderTest _system;
 
-        public TestProductsEndPoints(ApiClothesstoreFixture app)
+        public TestProductsEndPoints(Fixture.ApiClothesstoreFixture app)
         {
             _system = app.systemUnderTest;
         }
