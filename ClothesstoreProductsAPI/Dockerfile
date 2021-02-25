@@ -6,7 +6,7 @@ WORKDIR aspnetapp/ClothesstoreAp/XUnitTestClothesstore
 
 COPY *.csproj ./ClothesstoreApi/XUnitTestClothesstore/
 
-WORKDIR ClothesstoreApi /ClothesstoreProductsAPI
+WORKDIR ClothesstoreApi/ClothesstoreProductsAPI
 
 COPY *.csproj ./ClothesstoreApi/ClothesstoreProductsAPI/
 
@@ -14,7 +14,7 @@ COPY *.sln ./ClothesstoreApi/ClothesstoreProductsAPI/
 
 RUN ls
 
-RUN dotnet restore
+RUN dotnet restore ./ClothesstoreApi/ClothesstoreProductsAPI
 
 # Copy everything else and build
 COPY . ./
