@@ -20,7 +20,7 @@ WORKDIR /app
 # Copy everything else and build
 COPY . ./
 RUN dotnet publish ClothesstoreApi/ClothesstoreProductsAPI/ClothesstoreProductsAPI.csproj -c Release -o /app/ClothesstoreApi/ClothesstoreProductsAPI/out
-WORKDIR /app/ClothesstoreApi/ClothesstoreProductsAPI/out
+WORKDIR /app/ClothesstoreApi/ClothesstoreProductsAPI
 RUN ls-l
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
