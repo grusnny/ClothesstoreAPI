@@ -20,7 +20,7 @@ WORKDIR /app
 # Copy everything else and build
 COPY . ./
 FROM build-env AS publish
-RUN dotnet publish ClothesstoreApi/ClothesstoreProductsAPI/*.csproj -c Release -o /app
+RUN dotnet publish ClothesstoreApi/ClothesstoreProductsAPI/*.csproj -c Release -o /app/ClothesstoreApi/ClothesstoreProductsAPI/ClothesstoreProductsAPI.csproj
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 COPY --from=build-env /ClothesstoreProductsAPI/out .
