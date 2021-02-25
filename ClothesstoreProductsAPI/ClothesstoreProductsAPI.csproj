@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	 <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+	  <DefaultItemExcludes>$(DefaultItemExcludes);obj/**</DefaultItemExcludes>
     <StartupObject></StartupObject>
   </PropertyGroup>
 

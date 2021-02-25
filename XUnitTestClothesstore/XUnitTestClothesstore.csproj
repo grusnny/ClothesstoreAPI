@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-
     <IsPackable>false</IsPackable>
 	 <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+	  <DefaultItemExcludes>$(DefaultItemExcludes);obj/**</DefaultItemExcludes>
   </PropertyGroup>
 
   <ItemGroup>
