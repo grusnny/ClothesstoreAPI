@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <GenerateProgramFile>false</GenerateProgramFile>
     <OutputType>Library</OutputType>
     <StartupObject></StartupObject>
   </PropertyGroup>
