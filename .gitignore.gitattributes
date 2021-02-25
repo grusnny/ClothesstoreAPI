@@ -24,6 +24,8 @@ _UpgradeReport_Files/
 ###############
 bin/
 obj/
+XUnitTestClothesstore/bin
+XUnitTestClothesstore/obj
 TestResults/
 ###################
 # Web publish log #
