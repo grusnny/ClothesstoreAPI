@@ -11,12 +11,12 @@ COPY ClothesstoreProductsAPI/*.csproj ./ClothesstoreApi/ClothesstoreProductsAPI/
 COPY ClothesstoreProductsAPI/*.sln ./ClothesstoreApi/ClothesstoreProductsAPI/
 
 WORKDIR /app/ClothesstoreApi/XUnitTestClothesstore
-RUN ls
-WORKDIR /app
-RUN ls
+
+WORKDIR /app/ClothesstoreApi/ClothesstoreProductsAPI
 
 RUN dotnet restore 
 
+WORKDIR /app
 # Copy everything else and build
 COPY . ./
 FROM build-env AS publish
