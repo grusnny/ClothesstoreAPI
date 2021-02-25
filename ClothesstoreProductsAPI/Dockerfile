@@ -10,6 +10,9 @@ COPY *.csproj ./ClothesstoreApi/ClothesstoreProductsAPI/
 
 COPY *.sln ./ClothesstoreApi/ClothesstoreProductsAPI/
 
+
+
+WORKDIR /app
 RUN ls
 
 RUN dotnet restore 
