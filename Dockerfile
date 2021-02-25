@@ -24,5 +24,5 @@ WORKDIR /app
 RUN ls
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
-COPY --from=build-env /app/ClothesstoreApi/ClothesstoreProductsAPI/out ./
+COPY --from=build-env /app/ClothesstoreApi/ClothesstoreProductsAPI/out .
 CMD dotnet ClothesstoreProductsAPI.dll --urls "http://*:$PORT"
