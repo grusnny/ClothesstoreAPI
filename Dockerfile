@@ -23,5 +23,5 @@ RUN dotnet publish ClothesstoreApi/ClothesstoreProductsAPI/ClothesstoreProductsA
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 WORKDIR /app
-COPY --from=build-env /ClothesstoreApi/ClothesstoreProductsAPI/out .
+COPY --from=build-env /ClothesstoreApi/ClothesstoreProductsAPI/out ./app/ClothesstoreApi/ClothesstoreProductsAPI
 CMD dotnet ClothesstoreProductsAPI.dll --urls "http://*:$PORT"
