@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ClothesstoreProductsAPI\ClothesstoreProductsAPI.csproj" />
   </ItemGroup>
 
 </Project>
