@@ -5874,11 +5874,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andres\\Documents\\GitHub\\XUnitTestClothesstore\\XUnitTestClothesstore.csproj",
+      "projectUniqueName": "C:\\Users\\andres\\Documents\\GitHub\\ClothesstoreApi\\XUnitTestClothesstore\\XUnitTestClothesstore.csproj",
       "projectName": "XUnitTestClothesstore",
-      "projectPath": "C:\\Users\\andres\\Documents\\GitHub\\XUnitTestClothesstore\\XUnitTestClothesstore.csproj",
+      "projectPath": "C:\\Users\\andres\\Documents\\GitHub\\ClothesstoreApi\\XUnitTestClothesstore\\XUnitTestClothesstore.csproj",
       "packagesPath": "C:\\Users\\andres\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andres\\Documents\\GitHub\\XUnitTestClothesstore\\obj\\",
+      "outputPath": "C:\\Users\\andres\\Documents\\GitHub\\ClothesstoreApi\\XUnitTestClothesstore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5895,8 +5895,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\andres\\Documents\\GitHub\\ClothesstoreProductsAPI\\ClothesstoreProductsAPI.csproj": {
-              "projectPath": "C:\\Users\\andres\\Documents\\GitHub\\ClothesstoreProductsAPI\\ClothesstoreProductsAPI.csproj"
+            "C:\\Users\\andres\\Documents\\GitHub\\ClothesstoreApi\\ClothesstoreProductsAPI\\ClothesstoreProductsAPI.csproj": {
+              "projectPath": "C:\\Users\\andres\\Documents\\GitHub\\ClothesstoreApi\\ClothesstoreProductsAPI\\ClothesstoreProductsAPI.csproj"
             }
           }
         }

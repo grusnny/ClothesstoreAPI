@@ -1,0 +1,13 @@
+C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\out\ClothesstoreProductsAPI.exe
+C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\out\appsettings.Development.json
+C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\out\appsettings.json
+C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\out\ClothesstoreProductsAPI.dll
+C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\out\ClothesstoreProductsAPI.deps.json
+C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\out\ClothesstoreProductsAPI.runtimeconfig.json
+C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\out\ClothesstoreProductsAPI.pdb
+C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\out\Dapper.dll
+C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\out\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\out\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\out\MySqlConnector.dll
+C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\out\Newtonsoft.Json.dll
+C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\out\Newtonsoft.Json.Bson.dll
