@@ -107,8 +107,6 @@ C:\Users\andres\Documents\GitHub\ClothesstoreApi\XUnitTestClothesstore\bin\Relea
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\XUnitTestClothesstore\bin\Release\netcoreapp3.1\ClothesstoreProductsAPI.dll
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\XUnitTestClothesstore\bin\Release\netcoreapp3.1\ClothesstoreProductsAPI.pdb
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\XUnitTestClothesstore\obj\Release\netcoreapp3.1\XUnitTestClothesstore.csprojAssemblyReference.cache
-C:\Users\andres\Documents\GitHub\ClothesstoreApi\XUnitTestClothesstore\obj\Release\netcoreapp3.1\XUnitTestClothesstore.AssemblyInfoInputs.cache
-C:\Users\andres\Documents\GitHub\ClothesstoreApi\XUnitTestClothesstore\obj\Release\netcoreapp3.1\XUnitTestClothesstore.AssemblyInfo.cs
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\XUnitTestClothesstore\obj\Release\netcoreapp3.1\XUnitTestClothesstore.csproj.CoreCompileInputs.cache
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\XUnitTestClothesstore\obj\Release\netcoreapp3.1\XUnitTestClothesstore.csproj.CopyComplete
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\XUnitTestClothesstore\obj\Release\netcoreapp3.1\XUnitTestClothesstore.dll

@@ -1640,9 +1640,16 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Alba": "4.0.0",
           "Dapper": "2.0.78",
+          "FluentAssertions": "5.10.3",
+          "GenFu": "1.6.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.12",
-          "MySqlConnector": "1.2.1"
+          "Microsoft.NET.Test.Sdk": "16.5.0",
+          "Microsoft.TestPlatform.TestHost": "16.9.1",
+          "MySqlConnector": "1.2.1",
+          "Newtonsoft.Json": "12.0.3",
+          "xunit": "2.4.0"
         },
         "compile": {
           "bin/placeholder/ClothesstoreProductsAPI.dll": {}
@@ -5959,6 +5966,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

@@ -13,14 +13,11 @@ C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\bin\Rel
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\bin\Release\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\obj\Release\netcoreapp3.1\ClothesstoreProductsAPI.csprojAssemblyReference.cache
-C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\obj\Release\netcoreapp3.1\ClothesstoreProductsAPI.AssemblyInfoInputs.cache
-C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\obj\Release\netcoreapp3.1\ClothesstoreProductsAPI.AssemblyInfo.cs
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\obj\Release\netcoreapp3.1\ClothesstoreProductsAPI.csproj.CoreCompileInputs.cache
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\obj\Release\netcoreapp3.1\ClothesstoreProductsAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\obj\Release\netcoreapp3.1\staticwebassets\ClothesstoreProductsAPI.StaticWebAssets.Manifest.cache
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\obj\Release\netcoreapp3.1\staticwebassets\ClothesstoreProductsAPI.StaticWebAssets.xml
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\obj\Release\netcoreapp3.1\scopedcss\bundle\ClothesstoreProductsAPI.styles.css
-C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\obj\Release\netcoreapp3.1\ClothesstoreProductsAPI.RazorTargetAssemblyInfo.cache
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\obj\Release\netcoreapp3.1\ClothesstoreProductsAPI.csproj.CopyComplete
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\obj\Release\netcoreapp3.1\ClothesstoreProductsAPI.dll
 C:\Users\andres\Documents\GitHub\ClothesstoreApi\ClothesstoreProductsAPI\obj\Release\netcoreapp3.1\ClothesstoreProductsAPI.pdb
